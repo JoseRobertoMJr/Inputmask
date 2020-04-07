@@ -250,7 +250,7 @@
             }, _typeof(obj);
         }
         __WEBPACK_AMD_DEFINE_RESULT__ = function() {
-            return "undefined" != typeof window ? window : new (eval("require('jsdom').JSDOM"))("").window;
+            return "undefined" != typeof window ? window : new ("require('jsdom').JSDOM")("").window;
         }.call(exports, __webpack_require__, exports, module), void 0 === __WEBPACK_AMD_DEFINE_RESULT__ || (module.exports = __WEBPACK_AMD_DEFINE_RESULT__);
     }, function(module, exports, __webpack_require__) {
         "use strict";
